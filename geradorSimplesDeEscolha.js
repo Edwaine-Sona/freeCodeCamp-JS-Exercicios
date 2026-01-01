@@ -1,5 +1,3 @@
-// Este exercício foi projetado para selecionar e exibir uma das cinco opções predefinidas de forma completamente aleatória
-
 const escolha1 = "Primeira escolha"
 const escolha2 = "Segunda escolha"
 const escolha3 = "Terceira escolha"
@@ -32,6 +30,5 @@ switch (numeroAleatorio) {
   escolhaSelecionada = "Erro: Número fora do intervalo (0 - 5)"
 }
 
-// Imprimir o número e a escolha selecionada
 console.log(`Número sorteado: ${numeroAleatorio}`)
 console.log(`Escolha selecionada: ${escolhaSelecionada}`)
